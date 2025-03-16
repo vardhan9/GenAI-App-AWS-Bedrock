@@ -42,7 +42,7 @@ Install dependencies via the provided `requirements.txt`:
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/yourusername/Chat-PDF-AWS-Bedrock.git
-   cd Chat-PDF-AWS-Bedrock
+   cd GenAI-App-AWS-Bedrock
 2. **Install Dependencies:**:
     pip install -r requirements.txt
 3. **Set Up AWS Credentials:**:
