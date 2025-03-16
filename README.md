@@ -22,7 +22,7 @@ This project is an interactive web application that allows users to chat with PD
 Before running the project, ensure you have:
 - An **AWS Account** with access to Amazon Bedrock and the required models (Titan Embeddings, Mistral, LLaMA2).
 - **AWS CLI** installed and configured with credentials (`aws configure`).
-- **Python 3.9+** installed locally.
+- **Python 3.10+** installed locally.
 - A folder named `data` containing PDF files for ingestion.
 - Git installed to clone the repository.
 
