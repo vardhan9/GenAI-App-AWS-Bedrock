@@ -46,14 +46,15 @@ Install dependencies via the provided `requirements.txt`:
 2. **Install Dependencies:**:
     pip install -r requirements.txt
 3. **Set Up AWS Credentials:**:
-    Configure AWS CLI with your Access Key and Secret Key:
-    ````aws configure````
     Ensure your IAM role has permissions for Bedrock.
-
+    Configure AWS CLI with your Access Key and Secret Key:
+    ```bash 
+    aws configure
 
 ## Usage
 1. **Run the application**:
-    ```bash streamlit run app.py```
+    ```bash 
+    streamlit run app.py
     The app will open in your default browser (e.g., http://localhost:8501).
 2. **Update Vector Store**:
     In the sidebar, click "Vectors Update" to process PDFs and create/update the FAISS index.
